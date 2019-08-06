@@ -325,7 +325,7 @@ a img.aligncenter {
 	background: #393939;
 }
 .left-top{
-	padding: 3px 0px; 
+	padding: 3px 0px;
 }
 .email-box{
 	display: inline-block;
@@ -2356,7 +2356,7 @@ select.mobile-device {
 
 
 .loader {
-  
+
   position: absolute;
     margin: 0 auto;
     left: 1%;
@@ -2868,7 +2868,7 @@ select.mobile-device {
 
 .banner-bg-1{
 	background: url(uploads/inner-bg.jpg);
-	padding: 120px 0;	
+	padding: 120px 0;
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
 	background-origin: initial;
@@ -3330,7 +3330,3 @@ select.mobile-device {
 .dmtop.show {
     bottom: 20px;
 }
-
-
-
-

@@ -4473,6 +4473,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
 @media (min-width: 768px) {
   .navbar-text {
     float: left;
