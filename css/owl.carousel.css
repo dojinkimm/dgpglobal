@@ -12,7 +12,6 @@
     position: relative;
     z-index: 1;
 }
-
 .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
@@ -179,7 +178,7 @@
   left: -10%;
     -webkit-border-radius: 25px 0px 25px 0px;
     -moz-border-radius: 25px 0px 25px 0px;
-    border-radius: 25px 0px 25px 0px;    
+    border-radius: 25px 0px 25px 0px;
 }
 
 .owl-next i:hover,

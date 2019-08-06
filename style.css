@@ -528,6 +528,13 @@ li.social-links a {
     background-size: cover;
 }
 
+.slider-about-one {
+    background-image: url("images/about/branch/s1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .slider-content-area {
     height: 100vh;
     position: relative;
@@ -627,6 +634,7 @@ li.social-links a {
 	left: 100%;
 	z-index: 1
 }
+
 
 
 /*------------------------------------------------------------------
