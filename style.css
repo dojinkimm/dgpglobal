@@ -2913,6 +2913,16 @@ select.mobile-device {
     width: 6px;
 }
 
+.banner h3{
+    display: inline-block;
+	  position: relative;
+    color: #f1f1f1;
+    letter-spacing: 1px;
+    margin: 0 15px;
+    text-transform: uppercase;
+	  font-weight: 500;
+}
+
 .page-title-link li{
 	display: inline-block;
 	position: relative;
