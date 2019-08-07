@@ -43,35 +43,6 @@
     </div><!-- end loader -->
     <!-- END LOADER -->
 
-	<div class="top-bar">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 col-sm-6">
-					<div class="left-top">
-						<div class="email-box">
-							<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> youremail@gmail.com</a>
-						</div>
-						<div class="phone-box">
-							<a href="tel:1234567890"><i class="fa fa-phone" aria-hidden="true"></i> +1 234 567 890</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-6">
-					<div class="right-top">
-						<div class="social-box">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss-square" aria-hidden="true"></i></a></li>
-							<ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
     <header class="header header_style_01">
         <nav class="megamenu navbar navbar-default">
             <div class="container-fluid">
@@ -82,7 +53,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logos/logo.png" alt="image"></a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logos/dgplogo.png" alt="image" width="250px"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -100,8 +71,21 @@
         </nav>
     </header>
 
+		<!--Middle Nav bar-->
+		<!--TODO: hover시 color 변경-->
+			<nav class="navbar navbar-default" role="navigation">
+					<ul class="nav navbar-nav navbar-center">
+							<li><a data-scroll href="#resources">지하자원</a></li>
+							<li><a data-scroll href="#interior">내장재</a></li>
+							<li><a data-scroll href="#building">건자재</a></li>
+							<li><a data-scroll href="#deco">데코</a></li>
+							<li><a data-scroll href="#chemistry">화학</a></li>
+					</ul>
+			</nav>
+
+
 		<!--BANNER-->
-   	<div class="banner-area banner-bg-1">
+   	<div class="banner-area banner-bg-4">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -114,20 +98,6 @@
 		</div>
 	</div>
 	<!--BANNER-->
-
-
-
-	<!--Middle Nav bar-->
-	<!--TODO: hover시 color 변경-->
-		<nav class="navbar navbar-default" role="navigation">
-				<ul class="nav navbar-nav navbar-center">
-						<li><a href="#resources">지하자원</a></li>
-						<li><a href="#interior">내장재</a></li>
-						<li><a href="#building">건자재</a></li>
-						<li><a href="#deco">데코</a></li>
-						<li><a href="#chemistry">화학</a></li>
-				</ul>
-		</nav>
 
 		<!--Resources-->
 		<div id="resources" class="section wb">
@@ -142,11 +112,12 @@
                 <div class="col-md-12">
                     <nav class="portfolio-filter text-center">
                         <ul>
-                            <li><a class="btn btn-dark btn-radius btn-brd active" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat1">비철금속(골드-가나)</a></li>
-                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat2">비철금속(골드-호주)</a></li>
-                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat3">비철금속(골드-니카라과)</a></li>
-                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat4">알루미늄</a></li>
-														<li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat5">전기동</a></li>
+														<li><a class="btn btn-dark btn-brd active" href="#" data-filter="*"><span class="oi hidden-xs" data-glyph="grid-three-up"></span> 전체</a></li>
+                            <li><a class="btn btn-dark btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat1">비철금속(골드-가나)</a></li>
+                            <li><a class="btn btn-dark btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat2">비철금속(골드-호주)</a></li>
+                            <li><a class="btn btn-dark btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat3">비철금속(골드-니카라과)</a></li>
+                            <li><a class="btn btn-dark btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat4">알루미늄</a></li>
+														<li><a class="btn btn-dark btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat5">전기동</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -154,7 +125,8 @@
 
             <hr class="invis">
 
-            <div id="da-thumbs" class="da-thumbs portfolio">
+            <div id="da-thumbs1" class="da-thumbs portfolio">
+							<!--골드 가나-->
                 <div class="post-media pitem item-w1 item-h1 cat1">
                     <a href="images/trading/gold-ghana/ghana1.png" data-rel="prettyPhoto[gal]">
                         <img src="images/trading/gold-ghana/ghana1.png" alt="" class="img-responsive">
@@ -251,6 +223,80 @@
 												</div>
 										</a>
 								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana13.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana13.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana14.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana14.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana15.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana15.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana16.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana16.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana17.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana17.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana18.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana18.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana19.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana19.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana20.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana20.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat1">
+										<a href="images/trading/gold-ghana/ghana21.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-ghana/ghana21.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-가나</small></h3>
+												</div>
+										</a>
+								</div>
+
+								<!--골드 호주-->
 								<div class="post-media pitem item-w1 item-h1 cat2">
 										<a href="images/trading/gold-aus/aus1.png" data-rel="prettyPhoto[gal]">
 												<img src="images/trading/gold-aus/aus1.png" alt="" class="img-responsive">
@@ -299,6 +345,56 @@
 												</div>
 										</a>
 								</div>
+								<div class="post-media pitem item-w1 item-h1 cat2">
+										<a href="images/trading/gold-aus/aus7.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-aus/aus7.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-호주</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat2">
+										<a href="images/trading/gold-aus/aus8.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-aus/aus8.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-호주</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat2">
+										<a href="images/trading/gold-aus/aus9.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-aus/aus9.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-호주</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat2">
+										<a href="images/trading/gold-aus/aus10.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-aus/aus10.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-호주</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat2">
+										<a href="images/trading/gold-aus/aus11.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-aus/aus11.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-호주</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat2">
+										<a href="images/trading/gold-aus/aus12.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-aus/aus12.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-호주</small></h3>
+												</div>
+										</a>
+								</div>
+
+								<!--골드 니카라과-->
 								<div class="post-media pitem item-w1 item-h1 cat3">
 										<a href="images/trading/gold-nica/nic1.png" data-rel="prettyPhoto[gal]">
 												<img src="images/trading/gold-nica/nic1.png" alt="" class="img-responsive">
@@ -339,6 +435,100 @@
 												</div>
 										</a>
 								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic6.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic6.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic7.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic7.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic8.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic8.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic9.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic9.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic10.jpeg" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic10.jpeg" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic11.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic11.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic12.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic12.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic13.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic13.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat3">
+										<a href="images/trading/gold-nica/nic14.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/gold-nica/nic14.png" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>골드-니카라과</small></h3>
+												</div>
+										</a>
+								</div>
+
+								<!--알루미늄-->
+								<div class="post-media pitem item-w1 item-h1 cat4">
+										<a href="images/trading/alumin/al1.jpeg" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/alumin/al1.jpeg" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>알루미늄</small></h3>
+												</div>
+										</a>
+								</div>
+
+								<!--전기동-->
+								<div class="post-media pitem item-w1 item-h1 cat5">
+										<a href="images/trading/copper/co1.jpeg" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/copper/co1.jpeg" alt="" class="img-responsive">
+												<div>
+														<h3>비철금속<small>전기동/small></h3>
+												</div>
+										</a>
+								</div>
+
+
             </div><!-- end portfolio -->
         </div><!-- end container -->
     </div><!-- end section -->
@@ -358,52 +548,87 @@
                     <nav class="portfolio-filter text-center">
                         <ul>
                             <li><a class="btn btn-dark btn-radius btn-brd active" href="#" data-filter="*"><span class="oi hidden-xs" data-glyph="grid-three-up"></span> 전체</a></li>
-                            <li><a class="btn btn-dark btn-radius btn-brd" data-toggle="tooltip" data-placement="top" title="5" href="#" data-filter=".cat1">벽지</a></li>
-                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="12" data-filter=".cat2">바닥재</a></li>
-                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="21" data-filter=".cat3">액체벽지</a></li>
-                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" title="11" data-filter=".cat4">필름</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat6">벽지</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat7">바닥재</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat8">액체벽지</a></li>
+                            <li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat9">필름</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
 
             <hr class="invis">
-
-            <div id="da-thumbs" class="da-thumbs portfolio">
-                <div class="post-media pitem item-w1 item-h1 cat1">
-                    <a href="images/trading/gold-ghana/ghana1.png" data-rel="prettyPhoto[gal]">
-                        <img src="images/trading/gold-ghana/ghana1.png" alt="" class="img-responsive">
+					<!--벽지-->
+            <div id="da-thumbs2" class="da-thumbs portfolio">
+								<div class="post-media pitem item-w1 item-h1 cat6">
+										<a href="images/trading/wallpaper/b1.jpg" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/wallpaper/b1.jpg" alt="" class="img-responsive">
 												<div>
-														<h3>Tradested Mockop <small>Graphic Design</small></h3>
-														<i class="flaticon-unlink"></i>
+														<h3>내장재<small>벽지</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat6">
+										<a href="images/trading/wallpaper/b2.jpg" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/wallpaper/b2.jpg" alt="" class="img-responsive">
+												<div>
+														<h3>내장재<small>벽지</small></h3>
+												</div>
+										</a>
+								</div>
+								<div class="post-media pitem item-w1 item-h1 cat6">
+										<a href="images/trading/wallpaper/b3.jpg" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/wallpaper/b3.jpg" alt="" class="img-responsive">
+												<div>
+														<h3>내장재<small>벽지</small></h3>
+												</div>
+										</a>
+							</div>
+
+
+							<!--바닥재-->
+                <div class="post-media pitem item-w1 item-h1 cat7">
+                    <a href="images/trading/wood/1.png" data-rel="prettyPhoto[gal]">
+                        <img src="images/trading/wood/1.png" alt="" class="img-responsive">
+												<div>
+														<h3>내장재<small>바닥재</small></h3>
 												</div>
                     </a>
                 </div>
-                <div class="post-media pitem item-w1 item-h1 cat2">
-                    <a href="uploads/portfolio_02.jpg" data-rel="prettyPhoto[gal]">
-                        <img src="uploads/portfolio_02.jpg" alt="" class="img-responsive">
-                        <div>
-                            <h3>Tradested Mockop <small>Graphic Design</small></h3>
-                            <i class="flaticon-unlink"></i>
-                        </div>
+								<div class="post-media pitem item-w1 item-h1 cat7">
+                    <a href="images/trading/wood/2.png" data-rel="prettyPhoto[gal]">
+                        <img src="images/trading/wood/2.png" alt="" class="img-responsive">
+												<div>
+														<h3>내장재<small>바닥재</small></h3>
+												</div>
                     </a>
                 </div>
-                <div class="post-media pitem item-w1 item-h1 cat1">
-                    <a href="uploads/portfolio_03.jpg" data-rel="prettyPhoto[gal]">
-                        <img src="uploads/portfolio_03.jpg" alt="" class="img-responsive">
-                        <div>
-                            <h3>Photography Material <small>Photography</small></h3>
-                            <i class="flaticon-unlink"></i>
-                        </div>
+
+								<!--액체벽지-->
+                <div class="post-media pitem item-w1 item-h1 cat8">
+                    <a href="images/trading/wallface/F.png" data-rel="prettyPhoto[gal]">
+                        <img src="images/trading/wallface/F.png" alt="" class="img-responsive">
+												<div>
+														<h3>내장재<small>액체 벽지</small></h3>
+												</div>
                     </a>
                 </div>
-                <div class="post-media pitem item-w1 item-h1 cat4">
-                    <a href="uploads/portfolio_04.jpg" data-rel="prettyPhoto[gal]">
-                        <img src="uploads/portfolio_04.jpg" alt="" class="img-responsive">
-                        <div>
-                            <h3>Responsive Menu <small>UI Design</small></h3>
-                            <i class="flaticon-unlink"></i>
-                        </div>
+
+								<!--필름-->
+								<div class="post-media pitem item-w1 item-h1 cat9">
+                    <a href="images/trading/Sheet/s1.png" data-rel="prettyPhoto[gal]">
+                        <img src="images/trading/Sheet/s1.png" alt="" class="img-responsive">
+												<div>
+														<h3>내장재<small>필름</small></h3>
+												</div>
+                    </a>
+                </div>
+								<div class="post-media pitem item-w1 item-h1 cat9">
+                    <a href="images/trading/Sheet/s2.png" data-rel="prettyPhoto[gal]">
+                        <img src="images/trading/Sheet/s2.png" alt="" class="img-responsive">
+												<div>
+														<h3>내장재<small>필름</small></h3>
+												</div>
                     </a>
                 </div>
             </div><!-- end portfolio -->
@@ -423,7 +648,8 @@
 								<div class="col-md-12">
 										<nav class="portfolio-filter text-center">
 												<ul>
-														<li><a class="btn btn-dark btn-radius btn-brd active" href="#" data-filter="*"><span class="oi hidden-xs" data-glyph="grid-three-up"></span> 이오렉스</a></li>
+													<li><a class="btn btn-dark btn-radius btn-brd active" href="#" data-filter="*"><span class="oi hidden-xs" data-glyph="grid-three-up"></span> 전체</a></li>
+													<li><a class="btn btn-dark btn-radius btn-brd" href="#" data-toggle="tooltip" data-placement="top" data-filter=".cat9">이오렉스</a></li>
 												</ul>
 										</nav>
 								</div>
@@ -432,43 +658,17 @@
 						<hr class="invis">
 
 						<div id="da-thumbs" class="da-thumbs portfolio">
-								<div class="post-media pitem item-w1 item-h1 cat1">
-										<a href="images/trading/gold-ghana/ghana1.png" data-rel="prettyPhoto[gal]">
-												<img src="images/trading/gold-ghana/ghana1.png" alt="" class="img-responsive">
+								<div class="post-media pitem item-w1 item-h1 cat9">
+										<a href="images/trading/iorex/trading_iorex.png" data-rel="prettyPhoto[gal]">
+												<img src="images/trading/iorex/trading_iorex.png" alt="" class="img-responsive">
 												<div>
-														<h3>Seahorse by Trevor <small>Web Design</small></h3>
-														<i class="flaticon-unlink"></i>
-												</div>
-										</a>
-								</div>
-								<div class="post-media pitem item-w1 item-h1 cat2">
-										<a href="uploads/portfolio_02.jpg" data-rel="prettyPhoto[gal]">
-												<img src="uploads/portfolio_02.jpg" alt="" class="img-responsive">
-												<div>
-														<h3>Tradested Mockop <small>Graphic Design</small></h3>
-														<i class="flaticon-unlink"></i>
-												</div>
-										</a>
-								</div>
-								<div class="post-media pitem item-w1 item-h1 cat1">
-										<a href="uploads/portfolio_03.jpg" data-rel="prettyPhoto[gal]">
-												<img src="uploads/portfolio_03.jpg" alt="" class="img-responsive">
-												<div>
-														<h3>Photography Material <small>Photography</small></h3>
-														<i class="flaticon-unlink"></i>
-												</div>
-										</a>
-								</div>
-								<div class="post-media pitem item-w1 item-h1 cat4">
-										<a href="uploads/portfolio_04.jpg" data-rel="prettyPhoto[gal]">
-												<img src="uploads/portfolio_04.jpg" alt="" class="img-responsive">
-												<div>
-														<h3>Responsive Menu <small>UI Design</small></h3>
-														<i class="flaticon-unlink"></i>
+														<h3>건자재 <small> 이오렉스 </small></h3>
 												</div>
 										</a>
 								</div>
 						</div><!-- end portfolio -->
+
+
 				</div><!-- end container -->
 		</div><!-- end section -->
 
