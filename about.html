@@ -76,13 +76,15 @@
     <!--Middle Nav bar-->
     <!--TODO: hover시 color 변경-->
       <nav class="navbar navbar-default" role="navigation">
-          <ul class="nav navbar-nav navbar-center">
-              <li><a data-scroll href="#about">회사 개요</a></li>
-              <li><a data-scroll href="#history">회사 연혁</a></li>
-              <li><a data-scroll href="#branches">본사 및 지사</a></li>
-              <li><a data-scroll href="#organization">회사 조직도</a></li>
-              <li><a data-scroll href="#road-to-come">오시는 길</a></li>
-          </ul>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-center custom-navbar">
+                <li><a data-scroll href="#about">회사 개요</a></li>
+                <li><a data-scroll href="#history">회사 연혁</a></li>
+                <li><a data-scroll href="#branches">본사 및 지사</a></li>
+                <li><a data-scroll href="#organization">회사 조직도</a></li>
+                <li><a data-scroll href="#road-to-come">오시는 길</a></li>
+            </ul>
+          </div>
       </nav>
 
     <!--BANNER-->
@@ -132,20 +134,83 @@
 
             <!--회사 연혁-->
             <div id="history" class="row">
-                <div class="col-md-6">
-                    <div class="message-box">
-                        <h2>회사 연혁</h2>
-                        <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p>
+              <div class="section-title text-center">
+                <div class="message-box">
+                  <h2>회사 연혁</h2>
+                </div>
+              </div>
 
-                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
+              <!--Timeline-->
 
-                <div class="col-md-6">
-                    <div class="post-media wow fadeIn">
-                        <img src="images/about/about_story.jpg" alt="" class="img-responsive img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
+                <div class="container">
+                <div class="row">
+                  <div class="col-md-9 offset-md-3">
+                    <ul class="timeline">
+                      <h4 class="year">1998.04</h4>
+                      <li>
+                        <h4 class="timeline-title">- 키르기즈스탄 -> 우즈베키스탄</h4>
+                      </li>
+
+                      <h4 class="month">12</h4>
+                      <li>
+                        <h4 class="timeline-title">- 한세 무역지사<br> - 투-한간 전세기 사업</h4>
+                      </li>
+                      <h4 class="year">1999.04</h4>
+                      <li>
+                        <h4 class="timeline-title">- Firyza-Daihan Corporation 마케팅 디렉터<br>- ㈜대상-HiDEA Seed Potatoes</h4>
+                      </li>
+                      <h4 class="month">09</h4>
+                      <li>
+                        <h4 class="timeline-title">- SILKO CO., LTD 설립<br>- ㈜현대건설 PP 플랜트 사업 협력 지원<br>- 원단, 가죽, 중고차+신차 수출입 등 </h4>
+                      </li>
+                      <h4 class="year">2000.09</h4>
+                      <li>
+                        <h4 class="timeline-title">- LAMP CO., LTD 설립<br>- 감초, 세탁비누, 마카로니, 카펫, 일회용 주사기 공장 등</h4>
+                      </li>
+                      <h4 class="month">11</h4>
+                      <li>
+                        <h4 class="timeline-title">- SAMSUNG ENGINEERING CIS EXCLUSIVE AGENT (투르크메니스탄)<br>- SEIDI PE 플랜트 등</h4>
+                      </li>
+                      <h4 class="year">2003.04</h4>
+                      <li>
+                        <h4 class="timeline-title">- 정부 시책으로 LAMP - NURLAR로 사명 변경</h4>
+                      </li>
+                      <h4 class="year">2008.04</h4>
+                      <li>
+                        <h4 class="timeline-title">- DGP T&I CO., LTD (한국지사) 설립<br>- 우즈베키스탄 DGP의 한국지사<br>- 국내 영업</h4>
+                      </li>
+                      <h4 class="year">2006.04<br>~ 2013</h4>
+                      <li>
+                        <h4 class="timeline-title">- DGP (DAILY GROUP PLYUS, LTD) 설립<br>
+                            - DGP, DGP R&C(Research and Construction), DOMUS PLUS (UZBEKISTAN)<br>
+                            -	자원개발 – 석영광산 개발 및 메탈실리콘 공장, 잉기치케 텅스텐 광산, 아스만바이 바잘트 광산 및 다수<br>
+                            -	플랜트 지원 – PVC 플랜트, 노후 수도관 교체 사업, 골재채취장 운영, 기타 도로 공사 및 화학 플랜트 지원<br>
+                            -	무역 – 메살로스, 벽지, 감초 등 (바쿠, 키예프, 모스크바, 블라디보스톡, 카이로, DOBRA, 호치민 지사 운영)<br>
+                            - 컨설팅 - F/S 및 시장조사보고서 (독일 MAN, 플랜트산업협회, 화학부 등)<br>
+                            - 중소 컨설팅: 중소기업진흥공단의 무역박람회, 수출상담, 해외진출 지원 사업 등<br>
+                            -	부동산</h4>
+                      </li>
+                      <h4 class="year">2013~현재</h4>
+                      <li>
+                        <h4 class="timeline-title">- 디지피글로벌주식회사 (한국)<br>
+                          -	자원개발, 플랜트 지원, 무역, PORJECT FINANCING & INVESTMENT<br>
+                          -	가나 및 호주, 니카라과 금광 개발 및 무역<br>
+                          -	일반 무역 - 전기동, 밀베리, 알루미늄 등 비철금속/ 벽지, 염화칼슘, 우드펠릿</h4>
+                      </li>
+
+                      <h4 class="year">2017~현재</h4>
+                      <li>
+                        <h4 class="timeline-title">- KORGH T&I LIMITED (GHANA, AFRICA)<br>
+                          -	AKROPONG, ANYINAM, NARAWA, ATK MINING SITES<br>
+                          -	ALLUVIAL GOLD MINING & EXPORT 사금광 개발 및 생산, 수출</h4>
+                      </li>
+
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
             </div><!-- end row -->
 
             <hr class="hr1">

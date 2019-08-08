@@ -222,11 +222,11 @@
         border-color: #393939;
         color: #fff !important;
         background-color: #393939;
-		border-radius: 15px 0px 15px 0px; 
+		border-radius: 15px 0px 15px 0px;
     }
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-		border-color: #fd6802;
-		background-color: #fd6802;
+		border-color: #0075BC;
+		background-color: #0075BC;
 	}
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
@@ -236,7 +236,8 @@
         float: none;
     }
     .navbar-left,
-    .navbar-right {
+    .navbar-right,
+    .navbar-center {
         float: none !important;
     }
     .navbar-toggle {

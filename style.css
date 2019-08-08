@@ -327,52 +327,6 @@ a img.aligncenter {
 .left-top{
 	padding: 3px 0px;
 }
-.email-box{
-	display: inline-block;
-	margin-right: 20px;
-}
-.email-box a{
-	color: #ffffff;
-	font-size: 16px;
-}
-.email-box a:hover{
-	color: #fd6802;
-}
-.email-box a i{
-	padding: 0px 5px;
-}
-.phone-box{
-	display: inline-block;
-}
-
-.phone-box a{
-	color: #ffffff;
-	font-size: 16px;
-}
-.phone-box a:hover{
-	color: #fd6802;
-}
-.phone-box a i{
-	padding: 0px 5px;
-}
-
-.social-box{
-	float: right;
-}
-
-.social-box ul li{
-	display: inline-block;
-	padding-left: 10px;
-}
-
-.social-box ul li a{
-	color: #ffffff;
-	font-size: 20px;
-}
-.social-box ul li a:hover{
-	color: #fd6802;
-}
-
 
 /*------------------------------------------------------------------
     HEADER
@@ -581,7 +535,7 @@ li.social-links a {
 }
 
 .slider-wrapper .owl-nav .owl-prev:hover, .slider-wrapper .owl-nav .owl-next:hover {
-	background: #fd6802;
+	background: #0075BC;
 }
 
 .slider-wrapper .owl-nav .owl-prev {
@@ -761,7 +715,7 @@ li.social-links a {
 }
 
 .section-title.emphasis h3{
-  color:#fd6802;
+  color:#0075BC;
 }
 
 .section.colorsection p,
@@ -900,7 +854,7 @@ li.social-links a {
 }
 
 .da-thumbs .pitem a div i {
-    background-color: #fd6802;
+    background-color: #0075BC;
     position: absolute;
     color: #ffffff !important;
     bottom: 0;
@@ -932,7 +886,7 @@ li.social-links a {
 }
 
 .desc h3 i {
-    color: #fd6802;
+    color: #0075BC;
     font-size: 37px;
     vertical-align: middle;
     margin-right: 12px;
@@ -1330,7 +1284,7 @@ li.social-links a {
 }
 
 .hoverbutton {
-    background-color: #fd6802;
+    background-color: #0075BC;
     position: absolute;
     color: #ffffff !important;
     top: 48%;
@@ -1562,7 +1516,7 @@ hr.invis1 {
     border-radius: 25px 0px 25px 0px;
     font-size: 26px;
 	color: #ffffff;
-    background-color: #fd6802;
+    background-color: #0075BC;
     margin: 0 auto 22px;
     position: relative;
     text-align: center;
@@ -2102,7 +2056,7 @@ select.mobile-device {
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #fd6802 !important;
+    color: #0075BC !important;
 }
 
 .footer-links li {
@@ -2179,7 +2133,7 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #fd6802;
+	color: #0075BC;
 }
 
 
@@ -2289,7 +2243,7 @@ select.mobile-device {
 }
 
 .dmtop:hover {
-	background-color: #fd6802;
+	background-color: #0075BC;
 }
 
 .icon_wrap {
@@ -3062,7 +3016,7 @@ select.mobile-device {
 	font-weight: 500;
 }
 .page-title-link li a:hover {
-	color: #fd6802;
+	color: #0075BC;
 }
 .page-title-link li::after {
     background: #fcbf02;
@@ -3105,7 +3059,7 @@ select.mobile-device {
 	color: #393939;
 }
 .about-text h3 a:hover{
-	color: #fd6802;
+	color: #0075BC;
 }
 
 .about-item:hover .about-icon{
@@ -3114,7 +3068,7 @@ select.mobile-device {
 }
 
 .about-item:hover .about-icon span{
-	color: #fd6802;
+	color: #0075BC;
 	transition: all 1s ease-in-out;
 }
 
@@ -3136,9 +3090,9 @@ select.mobile-device {
 
 
 :root{
-    --pricingTable-yellow: #fd6802;
-    --pricingTable-purple: #fd6802;
-    --pricingTable-blue: #fd6802;
+    --pricingTable-yellow: #0075BC;
+    --pricingTable-purple: #0075BC;
+    --pricingTable-blue: #0075BC;
 }
 
 .pricingTable{
@@ -3459,7 +3413,7 @@ select.mobile-device {
 .address-item h3{
 	font-size: 28px;
 	font-weight: 600;
-	color: #fd6802;
+	color: #0075BC;
 }
 
 
