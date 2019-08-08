@@ -8,7 +8,7 @@
    /* ==============================================
     Fixed menu
     =============================================== */
-    
+
 	$(window).on('scroll', function () {
 		if ($(window).scrollTop() > 50) {
 			$('.header_style_01').addClass('fixed-menu');
@@ -16,12 +16,12 @@
 			$('.header_style_01').removeClass('fixed-menu');
 		}
 	});
-	
-	
+
+
    /* ==============================================
-		Scroll to top  
+		Scroll to top
 	============================================== */
-		
+
 	if ($('#scroll-to-top').length) {
 		var scrollTrigger = 100, // px
 			backToTop = function () {
@@ -74,12 +74,12 @@
         $(this).html('0');
         count($(this));
     });
-	
-	
+
+
 	/* ==============================================
      FUN FACTS -->
      =============================================== */
-	
+
 	$(".slider-wrapper").owlCarousel({
         items: 1,
         nav: true,
@@ -178,3 +178,34 @@
     });
 
 })(jQuery);
+
+
+/* ==============================================
+ PROCESS-STEP
+ =============================================== */
+
+$(function(){
+ $('.btn-circle').on('click',function(){
+   $('.btn-circle.btn-info').removeClass('btn-info').addClass('btn-default');
+   $(this).addClass('btn-info').removeClass('btn-default').blur();
+ });
+
+ $('.next-step, .prev-step').on('click', function (e){
+   var $activeTab = $('.tab-pane.active');
+
+   $('.btn-circle.btn-info').removeClass('btn-info').addClass('btn-default');
+
+   if ( $(e.target).hasClass('next-step') )
+   {
+      var nextTab = $activeTab.next('.tab-pane').attr('id');
+      $('[href="#'+ nextTab +'"]').addClass('btn-info').removeClass('btn-default');
+      $('[href="#'+ nextTab +'"]').tab('show');
+   }
+   else
+   {
+      var prevTab = $activeTab.prev('.tab-pane').attr('id');
+      $('[href="#'+ prevTab +'"]').addClass('btn-info').removeClass('btn-default');
+      $('[href="#'+ prevTab +'"]').tab('show');
+   }
+ });
+});
