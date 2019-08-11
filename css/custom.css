@@ -118,3 +118,7 @@ a.dropdown-item:hover {
   margin-left: 3px;
   font-size: 6px;
 }
+
+.no-center{
+  text-align: left
+}

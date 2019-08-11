@@ -89,7 +89,7 @@
         navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
         mouseDrag: false,
         touchDrag: false,
-        smartSpeed: 700
+        smartSpeed: 1200
     });
 
     /* ==============================================
@@ -110,12 +110,9 @@
                     .after('<img src="images/ajax-loader.gif" class="loader" />')
                     .attr('disabled', 'disabled');
                 $.post(action, {
-                        first_name: $('#first_name').val(),
-                        last_name: $('#last_name').val(),
+                        name: $('#name').val(),
                         email: $('#email').val(),
                         phone: $('#phone').val(),
-                        select_service: $('#select_service').val(),
-                        select_price: $('#select_price').val(),
                         comments: $('#comments').val(),
                         verify: $('#verify').val()
                     },
@@ -209,3 +206,7 @@ $(function(){
    }
  });
 });
+
+/* ==============================================
+  Pop-UP
+ =============================================== */
