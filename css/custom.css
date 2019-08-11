@@ -32,6 +32,10 @@
   color: #0075BC !important;
   font-weight: bold;
 }
+/* NO CENTER */
+.no-center{
+  text-align: left;
+}
 
 
 
@@ -117,8 +121,4 @@ a.dropdown-item:hover {
 .icon-circle-down{
   margin-left: 3px;
   font-size: 6px;
-}
-
-.no-center{
-  text-align: left
 }
