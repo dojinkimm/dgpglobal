@@ -15,8 +15,8 @@
   
  // you can specify which email you want your contact form to be emailed to here
 
-  $toemail = "info@dgpglobal.net ";
-  $subject = "Contact - From www.DGPglobal.net";
+  $toemail = "info@dgpglobal.co.kr ";
+  $subject = "Contact - From www.DGPglobal.co.kr";
 
   $headers = "MIME-Version: 1.0\n"
             ."From: \"".$name."\" <".$email.">\n"
